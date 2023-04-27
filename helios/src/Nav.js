@@ -10,8 +10,8 @@ export default function Nav() {
                 <a className="navbar-brand" href="/">
                     <img src={Logo} alt="Logo" className="navbar-logo" />
                 </a>
-                <div className="navbar-nav ml-auto">
-                    <ul>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <a className="nav-link" href="/">Home</a>
                         </li>

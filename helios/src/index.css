@@ -13,8 +13,13 @@ code {
 }
 
 .navbar-logo {
-  height: 30px; /* Set the desired height for the logo */
-  margin-right: 10px; /* Add spacing between the logo and other Navbar elements */
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
 }
 
 .hero-section {
@@ -31,4 +36,18 @@ code {
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff; /* Set the text color */
+  font-size: large;
+  text-shadow: -1px -1px 1px #000000,  
+  1px -1px 1px #000000,
+  -1px  1px 1px #000000,
+  1px  1px 1px #000000;
 }

@@ -8,9 +8,7 @@ export default function Landing() {
                 <div className="hero-image">
                     <img src={Mountain} alt="Hero" className="img-fluid" />
                     <div className="hero-text">
-                        <h1>Your hero text goes here</h1>
-                        <p>Your hero subtext goes here</p>
-                        {/* Add any other text or components for the hero section */}
+                        <h1>Modular structures for multi-mission aircraft</h1>
                     </div>
                 </div>
             </div>
