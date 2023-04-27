@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css'; 
-import './Navbar.css'; 
 import Logo from "./Photos/HellosLogo.jpg"
 
 
