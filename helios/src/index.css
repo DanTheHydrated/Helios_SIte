@@ -22,6 +22,14 @@ code {
   align-items: center;
 }
 
+.navbar-nav .nav-link {
+  color: #ffffff; /* Set the initial color of the navigation links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fee900; /* Set the color of the navigation links on hover */
+}
+
 .hero-section {
   width: 100%;
   height: 100vh; /* Set the height to 100% of the viewport height */
@@ -45,7 +53,7 @@ code {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #ffffff; /* Set the text color */
-  font-size: large;
+  font-size: 150%;
   text-shadow: -1px -1px 1px #000000,  
   1px -1px 1px #000000,
   -1px  1px 1px #000000,
