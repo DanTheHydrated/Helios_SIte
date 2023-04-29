@@ -7,11 +7,12 @@ export default function Landing() {
             <div className="hero-section">
                 <div className="hero-image">
                     <img src={Mountain} alt="Hero" className="img-fluid" />
-                    <div className="hero-text">
-                        <h1>Modular structures for multi-mission aircraft</h1>
+                    <div>
+                        <h1 className="hero-text">Modular Structures for Multi-Mission Aircraft</h1>
                     </div>
                 </div>
             </div>
+            <div className="image-gallery"></div>
         </div>
     )
 };
