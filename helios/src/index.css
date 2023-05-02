@@ -65,6 +65,38 @@ code {
   1px  1px 1px #000000;
 }
 
-/* .text-box { 
-  margin-left: 10px;
-} */
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.c-image {
+  width: 500px; 
+  height: 400px; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}

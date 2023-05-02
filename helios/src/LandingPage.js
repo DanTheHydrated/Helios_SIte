@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Mountain from "./Photos/Mountain.jpg"
-import  one from "./Photos/helios1.jpeg"
-import two from "./Photos/helios2.jpeg"
-import three from "./Photos/helios3.jpeg"
-import four from "./Photos/helios4.jpeg"
-import five from "./Photos/helios5.jpeg"
-import six from "./Photos/helios6.jpeg"
-import seven from "./Photos/helios7.jpeg"
-import eight from "./Photos/heliso8.jpeg"
-import nine from "./Photos/helios9.jpeg"
+import Carsoul from "./Carsoul";
+
 
 
 export default function Landing() {
@@ -42,7 +35,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-            <div className="text-box">
+            {/* <div className="text-box">
                 <div className="row">
                     <div className="justify-content-left col-sm-12 col-md-6">
                         <p className="text-left">
@@ -52,20 +45,21 @@ export default function Landing() {
                         </p>
                     </div>
                     <div className="image-gallery">
-                        <div className="col-sm-12 col-md-6">
-                            <img className="image-1" src={one}></img>
-                            <img className="image-2" src={two}></img>
-                            <img className="image-3" src={three}></img>
-                            <img className="image-4" src={four}></img>
-                            <img className="image-5" src={five}></img>
-                            <img className="image-6" src={six}></img>
-                            <img className="image-7" src={seven}></img>
-                            <img className="image-8" src={eight}></img>
-                            <img className="image-9" src={nine}></img>
+                        <div className="justify-content-right col-sm-12 col-md-6">
+                            <img className="image-1" alt="gallery" src={one} />
+                            <img className="image-2" alt="gallery" src={two}></img>
+                            <img className="image-3" alt="gallery" src={three}></img>
+                            <img className="image-4" alt="gallery" src={four}></img>
+                            <img className="image-5" alt="gallery" src={five}></img>
+                            <img className="image-6" alt="gallery" src={six}></img>
+                            <img className="image-7" alt="gallery" src={seven}></img>
+                            <img className="image-8" alt="gallery" src={eight}></img>
+                            <img className="image-9" alt="gallery" src={nine}></img>
                         </div>
                     </div> 
                 </div>
-            </div>
+            </div> */}
+            <Carsoul />
         </div>
     )
 };
