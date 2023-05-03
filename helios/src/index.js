@@ -4,14 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/js/dist/modal';
 import 'bootstrap/js/dist/dropdown';
-import Nav from './Nav';
-import Landing from './LandingPage';
+import FrontPage from './FrontPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
-    <Landing />
+    <FrontPage />
   </React.StrictMode>
 );
 

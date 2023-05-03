@@ -22,11 +22,15 @@ export default function Carsoul() {
     return(
         <div className="text-box">
             <div className="row">
-                <div className="col-sm-12 col-md-6">
-                    <p className="text-left">
+                <div className="col-sm-12 col-md-6 d-flex align-items-center justify-content-center flex-column">
+                    <p className="text-left fs-5">
                         &nbsp;&nbsp;&nbsp;&nbsp;We build custom ISR interior modifications rapidly and efficiently, using blocks of pre-engineered and fabricated design. The modules shown below fit together to provide a custom solution with minimal schedule and cost. They can also be reconfigured as the mission evolves.
-                        All modules are forward/backward compatible and can ship in off-the-shelf environmentally-hardened cases. This can facilitate fully-integrated spares, roll-on/roll-off capability, short-term flight test, and phased system expansion.
-                        All modules are designed and substantiated to meet 14 CFR Regulations. Each customer's custom configuration can be shown to comply with applicable Part 23, 25, 27, or 29 regulations.
+                    </p>
+                    <p className="text-left fs-5">
+                        &nbsp;&nbsp;&nbsp;&nbsp;All modules are forward/backward compatible and can ship in off-the-shelf environmentally-hardened cases. This can facilitate fully-integrated spares, roll-on/roll-off capability, short-term flight test, and phased system expansion.
+                    </p>
+                    <p className="text-left fs-5">
+                        &nbsp;&nbsp;&nbsp;&nbsp;All modules are designed and substantiated to meet 14 CFR Regulations. Each customer's custom configuration can be shown to comply with applicable Part 23, 25, 27, or 29 regulations.
                     </p>
                 </div>
                 <div className="col-sm-12 col-md-6">
